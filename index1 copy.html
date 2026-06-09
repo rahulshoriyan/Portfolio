@@ -1,0 +1,2249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rahul Kumar — Data & Business Analyst</title>
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<main>
+
+  <!-- ═══════════════════════════════════════
+       SIDEBAR
+  ═══════════════════════════════════════ -->
+<aside class="sidebar" data-sidebar>
+
+  <div class="sidebar-info">
+
+    <figure class="avatar-box">
+      <img src="./assets/images/my-avatar.png" alt="Rahul Kumar" width="80">
+    </figure>
+
+    <div class="info-content">
+
+      <h1 class="name" title="Rahul Kumar">Rahul Kumar</h1>
+
+      <!-- Role you were hired for -->
+      <p class="title">Data Analyst / Business Analyst</p>
+
+      <!-- What you are now — company name removed -->
+      <p style="font-size:12px; color:var(--light-gray); text-align:center; margin-top:4px; margin-bottom:8px;">
+        Sr. Data Quality Engineer
+      </p>
+
+      <!-- Open to new role badge — centered via flex on parent -->
+      <div style="display:flex; justify-content:center; width:100%; margin-bottom:2px;">
+        <span style="display:inline-flex; align-items:center; gap:5px;
+                  font-size:11px; font-weight:500;
+                  color:#4ade80;
+                  background:rgba(74,222,128,0.1);
+                  border:1px solid rgba(74,222,128,0.3);
+                  padding:3px 10px; border-radius:20px;">
+          <span style="width:6px; height:6px; border-radius:50%; background:#4ade80; display:inline-block; flex-shrink:0;"></span>
+          Open to New Roles
+        </span>
+      </div>
+
+    </div>
+
+    <button class="info_more-btn" data-sidebar-btn>
+      <span>Show Contacts</span>
+      <ion-icon name="chevron-down"></ion-icon>
+    </button>
+
+  </div>
+
+  <div class="sidebar-info_more">
+
+    <div class="separator"></div>
+
+    <ul class="contacts-list">
+
+      <!-- Email — wraps naturally, no truncation -->
+      <li class="contact-item"
+          style="position:relative; border-radius:14px; transition:box-shadow 0.25s ease; cursor:pointer;"
+          onmouseenter="this.style.boxShadow='0 0 0 1px var(--orange-yellow-crayola)'"
+          onmouseleave="this.style.boxShadow='none'">
+        <div class="icon-box">
+          <ion-icon name="mail-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Email</p>
+          <a href="mailto:7024447182rahul@gmail.com"
+             class="contact-link"
+             style="white-space:normal; word-break:break-all;">
+            7024447182rahul@gmail.com
+          </a>
+        </div>
+      </li>
+
+      <!-- Phone -->
+      <li class="contact-item"
+          style="position:relative; border-radius:14px; transition:box-shadow 0.25s ease; cursor:pointer;"
+          onmouseenter="this.style.boxShadow='0 0 0 1px var(--orange-yellow-crayola)'"
+          onmouseleave="this.style.boxShadow='none'">
+        <div class="icon-box">
+          <ion-icon name="phone-portrait-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Phone</p>
+          <a href="tel:+918890860687" class="contact-link">+91 88908 60687</a>
+        </div>
+      </li>
+
+      <!-- Location -->
+      <li class="contact-item"
+          style="position:relative; border-radius:14px; transition:box-shadow 0.25s ease; cursor:pointer;"
+          onmouseenter="this.style.boxShadow='0 0 0 1px var(--orange-yellow-crayola)'"
+          onmouseleave="this.style.boxShadow='none'">
+        <div class="icon-box">
+          <ion-icon name="location-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Location</p>
+          <address>Gurugram, India</address>
+        </div>
+      </li>
+
+    </ul>
+
+    <div class="separator"></div>
+
+    <!-- Download CV button -->
+    <!-- ✏️ Replace path with your actual CV file path -->
+    <a href="https://drive.google.com/file/d/1jEfumY7O2r0VQPFSLBeK9qp2QREwoT8x/"
+       download
+       style="display:flex; align-items:center; justify-content:center; gap:8px;
+              margin:0 16px 16px;
+              padding:10px 16px;
+              border-radius:12px;
+              border:1px solid var(--orange-yellow-crayola);
+              color:var(--orange-yellow-crayola);
+              font-size:13px; font-weight:500;
+              text-decoration:none;
+              box-shadow:none;
+              transition:box-shadow 0.25s ease, background 0.25s ease;"
+       onmouseenter="this.style.boxShadow='0 0 0 1px var(--orange-yellow-crayola)'; this.style.background='rgba(233,170,46,0.08)'"
+       onmouseleave="this.style.boxShadow='none'; this.style.background='transparent'">
+      <ion-icon name="download-outline" style="font-size:16px;"></ion-icon>
+      Download CV
+    </a>
+
+    <!-- Social links -->
+    <!-- ✏️ Replace with your actual profile URLs -->
+    <ul class="social-list">
+
+      <li class="social-item">
+        <a href="https://www.linkedin.com/in/rahul903/"
+           class="social-link"
+           target="_blank" rel="noopener"
+           style="transition:box-shadow 0.25s ease, color 0.25s ease; border-radius:8px;"
+           onmouseenter="this.style.boxShadow='0 0 0 1px var(--orange-yellow-crayola)'; this.style.color='var(--orange-yellow-crayola)'"
+           onmouseleave="this.style.boxShadow='none'; this.style.color=''">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </li>
+
+      <li class="social-item">
+        <a href="https://github.com/rahulshoriyan"
+           class="social-link"
+           target="_blank" rel="noopener"
+           style="transition:box-shadow 0.25s ease, color 0.25s ease; border-radius:8px;"
+           onmouseenter="this.style.boxShadow='0 0 0 1px var(--orange-yellow-crayola)'; this.style.color='var(--orange-yellow-crayola)'"
+           onmouseleave="this.style.boxShadow='none'; this.style.color=''">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </li>
+
+      <li class="social-item">
+        <a href="https://www.hackerrank.com/rahul903"
+           class="social-link"
+           target="_blank" rel="noopener"
+           style="transition:box-shadow 0.25s ease, color 0.25s ease; border-radius:8px;"
+           onmouseenter="this.style.boxShadow='0 0 0 1px var(--orange-yellow-crayola)'; this.style.color='var(--orange-yellow-crayola)'"
+           onmouseleave="this.style.boxShadow='none'; this.style.color=''">
+          <ion-icon name="code-slash-outline"></ion-icon>
+        </a>
+      </li>
+
+    </ul>
+
+  </div>
+
+</aside>
+
+  <!-- ═══════════════════════════════════════
+       MAIN CONTENT
+  ═══════════════════════════════════════ -->
+  <div class="main-content">
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+        <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+        <li class="navbar-item"><button class="navbar-link" data-nav-link>Project</button></li>
+        <li class="navbar-item"><button class="navbar-link" data-nav-link>Accomplishment</button></li>
+        <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+      </ul>
+    </nav>
+
+
+    <!--
+  ════════════════════════════════════════════════════════════════
+  ABOUT SECTION — Full updated version
+  
+  HOW TO USE:
+  1. In index.html find: <article class="about active" data-page="about">
+  2. Delete everything up to and including its closing </article>
+  3. Paste this entire block in its place
+  ════════════════════════════════════════════════════════════════
+-->
+
+<style>
+
+/* ── Stat cards ── */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.stat-card {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  border-radius: 14px;
+  padding: 18px 14px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+  transition: box-shadow var(--transition-1);
+}
+
+.stat-card::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background: var(--bg-gradient-jet);
+  z-index: -1;
+}
+
+.stat-card:hover {
+  box-shadow: 0 0 0 1px var(--orange-yellow-crayola);
+}
+
+.stat-num {
+  font-size: 26px;
+  font-weight: var(--fw-600);
+  background: var(--text-gradient-yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.stat-sub {
+  font-size: 10px;
+  color: var(--vegas-gold);
+  opacity: 0.7;
+  margin-top: 2px;
+  font-weight: var(--fw-300);
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--light-gray);
+  margin-top: 6px;
+  font-weight: var(--fw-300);
+  line-height: 1.4;
+}
+
+/* ── Stat tooltip modal ── */
+.stat-tooltip {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.stat-tooltip.active { display: flex; }
+
+.stat-tooltip-box {
+  position: relative;
+  background: var(--eerie-black-2);
+  border: 1px solid var(--orange-yellow-crayola);
+  border-radius: 16px;
+  padding: 28px 24px;
+  max-width: 340px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 0 0 1px var(--orange-yellow-crayola);
+}
+
+.stat-tooltip-num {
+  font-size: 36px;
+  font-weight: var(--fw-600);
+  background: var(--text-gradient-yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.stat-tooltip-sub {
+  font-size: 12px;
+  color: var(--vegas-gold);
+  opacity: 0.8;
+  margin-bottom: 12px;
+}
+
+.stat-tooltip-title {
+  font-size: 15px;
+  font-weight: var(--fw-500);
+  color: var(--white-2);
+  margin-bottom: 10px;
+}
+
+.stat-tooltip-desc {
+  font-size: 13px;
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+.stat-tooltip-close {
+  background: transparent;
+  border: 1px solid var(--orange-yellow-crayola);
+  color: var(--orange-yellow-crayola);
+  border-radius: 8px;
+  padding: 7px 20px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: var(--transition-1);
+}
+
+.stat-tooltip-close:hover {
+  background: var(--orange-yellow-crayola);
+  color: var(--smoky-black);
+}
+
+/* ── Experience highlight cards ── */
+.exp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.exp-card {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  border-radius: 14px;
+  padding: 16px 14px;
+  cursor: pointer;
+  z-index: 1;
+  transition: box-shadow var(--transition-1);
+  text-decoration: none;
+  display: block;
+}
+
+.exp-card::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background: var(--bg-gradient-jet);
+  z-index: -1;
+}
+
+.exp-card:hover {
+  box-shadow: 0 0 0 1px var(--orange-yellow-crayola);
+}
+
+.exp-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  background: var(--eerie-black-1);
+}
+
+.exp-company {
+  font-size: 13px;
+  font-weight: var(--fw-500);
+  color: var(--white-2);
+  margin-bottom: 3px;
+}
+
+.exp-role {
+  font-size: 11px;
+  color: var(--orange-yellow-crayola);
+  font-weight: var(--fw-300);
+  margin-bottom: 6px;
+}
+
+.exp-snippet {
+  font-size: 11px;
+  color: var(--light-gray-70);
+  font-weight: var(--fw-300);
+  line-height: 1.55;
+}
+
+.exp-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 10px;
+  font-size: 11px;
+  color: var(--orange-yellow-crayola);
+  font-weight: var(--fw-400);
+  opacity: 0.8;
+}
+
+</style>
+
+
+<!-- ════ ABOUT ARTICLE ══════════════════════════════════════════ -->
+<article class="about active" data-page="about">
+
+  <header>
+    <h2 class="h2 article-title">About me</h2>
+  </header>
+
+  <!-- ── Stat cards 3×2 grid ── -->
+  <div class="stat-grid">
+
+    <div class="stat-card" onclick="openStat(0)">
+      <div class="stat-num">3+</div>
+      <div class="stat-label">Years of professional experience</div>
+    </div>
+
+    <div class="stat-card" onclick="openStat(1)">
+      <div class="stat-num">5K+</div>
+      <div class="stat-sub">90%+ CF rate</div>
+      <div class="stat-label">Problems solved across platforms</div>
+    </div>
+
+    <div class="stat-card" onclick="openStat(2)">
+      <div class="stat-num">99.5%</div>
+      <div class="stat-sub">across 5M+ order lines</div>
+      <div class="stat-label">Data quality delivered</div>
+    </div>
+
+    <div class="stat-card" onclick="openStat(3)">
+      <div class="stat-num">300K+</div>
+      <div class="stat-label">Daily records processed &amp; analyzed</div>
+    </div>
+
+    <div class="stat-card" onclick="openStat(4)">
+      <div class="stat-num">10+</div>
+      <div class="stat-label">Dashboards built &amp; deployed</div>
+    </div>
+
+    <div class="stat-card" onclick="openStat(5)">
+      <div class="stat-num">5+</div>
+      <div class="stat-label">Professional certifications</div>
+    </div>
+
+  </div>
+
+  <!-- ── Stat tooltip modal ── -->
+  <div class="stat-tooltip" id="statTooltip" onclick="closeStat(event)">
+    <div class="stat-tooltip-box">
+      <div class="stat-tooltip-num" id="ttNum"></div>
+      <div class="stat-tooltip-sub" id="ttSub"></div>
+      <div class="stat-tooltip-title" id="ttTitle"></div>
+      <p class="stat-tooltip-desc" id="ttDesc"></p>
+      <button class="stat-tooltip-close" onclick="document.getElementById('statTooltip').classList.remove('active')">Close</button>
+    </div>
+  </div>
+
+  <!-- ── Intro paragraph ── -->
+  <section class="about-text">
+    <p>
+      Hi, I'm Rahul Kumar — a Business &amp; Data Analyst with 3+ years of experience turning raw data into clear, actionable insights. During my undergraduate years I worked as a Subject Matter Expert for Chegg, Coursera, and Donutnut, solving 5,000+ problems in statistics, SQL, and mathematics with 90%+ accuracy — building a strong analytical foundation before entering the industry.
+    </p>
+    <p>
+      I'm currently a Senior Data Quality Engineer at Kuehne+Nagel, leading KPI rollouts across 22+ additional global affiliates. I specialize in Tableau, SQL, Python, Power BI, and Databricks, with a strong focus on requirement gathering, stakeholder management, and process optimization.
+    </p>
+    <p>
+      I enjoy building automated systems that eliminate manual effort—from VBA macros that cut 150+ reminder emails each month to a Databricks dashboard that gives management real-time visibility into submitted and pending reports, reducing the reporting SLA from 2 days to 1 hour.
+      </p>
+  </section>
+
+  <!-- ── What I'm doing ── -->
+  <section class="service">
+    <h3 class="h3 service-title">What I'm doing</h3>
+    <ul class="service-list">
+
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-design.svg" alt="Data Analysis" width="40">
+        </div>
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Data Analysis &amp; Engineering</h4>
+          <p class="service-item-text">
+            Building ETL pipelines, Databricks workflows, and automated data validation systems with quality checks.
+          </p>
+        </div>
+      </li>
+
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-dev.svg" alt="Business Analysis" width="40">
+        </div>
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Business Analysis</h4>
+          <p class="service-item-text">
+            Requirement gathering, stakeholder management, SOP design, and process mapping for global teams.
+          </p>
+        </div>
+      </li>
+
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-app.svg" alt="Data Visualization" width="40">
+        </div>
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Data Visualization</h4>
+          <p class="service-item-text">
+            Building executive dashboards in Tableau, Power BI, and Looker Studio for OTIF, KPI, and operational reporting.
+          </p>
+        </div>
+      </li>
+
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-photo.svg" alt="Data Quality" width="40">
+        </div>
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Data Quality Management</h4>
+          <p class="service-item-text">
+            Ensuring data accuracy, integrity, and reliability — Improved quality from 80% to 99.5% across 5M+ order lines globally.
+          </p>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- ── Experience highlights — click goes to Resume tab ── -->
+  <section class="testimonials">
+    <h3 class="h3 testimonials-title">Experience Highlights</h3>
+    <p style="font-size:12px; color:var(--light-gray-70); font-weight:var(--fw-300); margin-bottom:14px; margin-top:-4px;">
+      Click any card to see full details in the Resume section.
+    </p>
+
+    <div class="exp-grid">
+
+      <!-- KN -->
+      <div class="exp-card" onclick="goToResume()">
+        <img class="exp-avatar" src="./assets/images/avatar-1.png" alt="Kuehne+Nagel">
+        <p class="exp-company">Kuehne+Nagel</p>
+        <p class="exp-role">Sr. Data Quality Engineer</p>
+        <p class="exp-snippet"> Led KPI rollout across 42+ global affiliates, improving data quality from 80% to 99.5%.</p>
+        <span class="exp-cta">View full details →</span>
+      </div>
+
+      <!-- Pro-Vigil -->
+      <div class="exp-card" onclick="goToResume()">
+        <img class="exp-avatar" src="./assets/images/avatar-2.png" alt="Pro-Vigil">
+        <p class="exp-company">Pro-Vigil</p>
+        <p class="exp-role">Data Analyst</p>
+        <p class="exp-snippet">Processed & analyzed 300K+ daily records. Built 6 dashboards and a Python ETL pipeline cutting reporting time by 20%.</p>
+        <span class="exp-cta">View full details →</span>
+      </div>
+
+      <!-- Chegg / SME -->
+      <div class="exp-card" onclick="goToResume()">
+        <img class="exp-avatar" src="./assets/images/avatar-3.png" alt="Chegg">
+        <p class="exp-company">Chegg · Course Hero · Donutnut</p>
+        <p class="exp-role">Subject Matter Expert</p>
+        <p class="exp-snippet">Solved 5,000+ problems in statistics, SQL and mathematics with 90%+ accuracy. Top 5% problem-solver on Chegg.</p>
+        <span class="exp-cta">View full details →</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Modal (required by script.js — keep even if unused) -->
+  <div class="modal-container" data-modal-container>
+    <div class="overlay" data-overlay></div>
+    <section class="testimonials-modal">
+      <button class="modal-close-btn" data-modal-close-btn>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <div class="modal-img-wrapper">
+        <figure class="modal-avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="" width="80" data-modal-img>
+        </figure>
+        <img src="./assets/images/icon-quote.svg" alt="quote icon">
+      </div>
+      <div class="modal-content">
+        <h4 class="h3 modal-title" data-modal-title></h4>
+        <time datetime=""></time>
+        <p data-modal-text></p>
+      </div>
+    </section>
+  </div>
+
+</article>
+<!-- ════ END ABOUT ════ -->
+
+
+<!--
+  ════════════════════════════════════════════════════════════════
+  STAT CARD TOOLTIP SCRIPT
+  Paste this just before </body>, after script.js and ionicons.
+  ════════════════════════════════════════════════════════════════
+-->
+<script>
+var statData = [
+  {
+    num: '3+',
+    sub: '',
+    title: '3+ Years of fulltime Experience',
+    desc: 'Started as a Subject Matter Expert during college (2020), moved into full-time Data Analysis at Pro-Vigil (2023), and am currently a Senior Data Quality Engineer at Kuehne+Nagel (2024–present).'
+  },
+  {
+    num: '5K+',
+    sub: '90%+ CF rate',
+    title: 'Problems Solved Across Platforms',
+    desc: 'During my undergraduate years I worked as an SME for Chegg, Coursera, and Donutnut — solving 5,000+ questions in statistics, SQL, and mathematics while maintaining a 90%+ accuracy (CF) rate. Ranked in the top 5% on Chegg.'
+  },
+  {
+    num: '99.5%',
+    sub: 'across 5M+ order lines',
+    title: 'Data Quality Delivered at Kuehne+Nagel',
+    desc: 'Improved global data quality from 80% to 99.5% across 5M+ order lines for 42 affiliates within just 3 months — consistently exceeding the 95% SLA target set by the business.'
+  },
+  {
+    num: '300K+',
+    sub: '',
+    title: 'Daily Records Processed at Pro-Vigil',
+    desc: 'Processed and analyzed 300,000+ daily surveillance data records at Pro-Vigil, delivering key insights to multiple departments and building a Python ETL pipeline that cut reporting turnaround by 20%.'
+  },
+  {
+    num: '10+',
+    sub: '',
+    title: 'Dashboards Built & Deployed',
+    desc: 'Built and deployed 10+ live dashboards across Tableau, Power BI, and Looker Studio — covering OTIF tracking, KPI monitoring, HR analytics, stock performance, and operational reporting for global stakeholders.'
+  },
+  {
+    num: '5+',
+    sub: '',
+    title: 'Professional Certifications',
+    desc: 'Certified in Tableau Desktop Specialist, Microsoft Power Automate, HackerRank SQL Advanced, HackerRank Python, and Google Data Analytics — covering the full data stack from querying to visualization to automation.'
+  }
+];
+
+function openStat(i) {
+  var d = statData[i];
+  document.getElementById('ttNum').textContent   = d.num;
+  document.getElementById('ttSub').textContent   = d.sub;
+  document.getElementById('ttTitle').textContent = d.title;
+  document.getElementById('ttDesc').textContent  = d.desc;
+  document.getElementById('statTooltip').classList.add('active');
+}
+
+function closeStat(e) {
+  if (e.target === document.getElementById('statTooltip')) {
+    document.getElementById('statTooltip').classList.remove('active');
+  }
+}
+
+function goToResume() {
+  var resumeBtn = document.querySelector('[data-nav-link][data-page="resume"]');
+  if (resumeBtn) {
+    resumeBtn.click();
+    return;
+  }
+  // fallback — find by text content
+  var navLinks = document.querySelectorAll('[data-nav-link]');
+  navLinks.forEach(function(btn) {
+    if (btn.textContent.trim().toLowerCase() === 'resume') {
+      btn.click();
+    }
+  });
+}
+</script>
+
+
+ <!--
+  ════════════════════════════════════════════════════════════════
+  RESUME SECTION — Final version
+
+  HOW TO USE:
+  1. Find:  <article class="resume hidden" data-page="resume">
+     (or <article class="resume active" ...>)
+  2. Delete that block to its closing </article>
+  3. Paste this entire file in its place
+  4. Paste the <style> block into <head> or style.css
+  ════════════════════════════════════════════════════════════════
+-->
+
+<!-- ── Paste into <head> or bottom of style.css ─────────────── -->
+<style>
+
+/* ════════════════════════════════
+   EXPERIENCE — timeline restored
+   left line + dot, date on right
+   ════════════════════════════════ */
+
+/* Promoted badge */
+.exp-promo-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--fs-8);
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: hsl(145, 60%, 42%);
+  background: hsla(145, 60%, 30%, 0.18);
+  border: 1px solid hsla(145, 60%, 40%, 0.35);
+  padding: 2px 8px;
+  border-radius: 5px;
+  margin-left: 8px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* K+N: two roles inside one parent item */
+.timeline-item-roles {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.timeline-role-block {
+  background: var(--eerie-black-1);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.timeline-role-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.timeline-role-title {
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  color: var(--white-2);
+}
+
+.timeline-role-date {
+  font-size: var(--fs-8);
+  color: var(--vegas-gold);
+  font-weight: var(--fw-400);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Tool chips */
+.tool-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+.tool-chip {
+  font-size: var(--fs-8);
+  font-weight: var(--fw-400);
+  color: var(--light-gray-70);
+  background: var(--eerie-black-2);
+  border: 1px solid var(--jet);
+  padding: 2px 9px;
+  border-radius: 5px;
+  white-space: nowrap;
+  transition: var(--transition-1);
+}
+
+.tool-chip:hover {
+  color: var(--orange-yellow-crayola);
+  border-color: var(--vegas-gold);
+}
+
+/* ════════════════════════════════
+   SKILLS — 2-column grid
+   ════════════════════════════════ */
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 24px;
+}
+
+/* Also proficient chips section */
+.skills-also {
+  grid-column: 1 / -1;
+  margin-top: 6px;
+  padding-top: 16px;
+  border-top: 1px solid var(--jet);
+}
+
+.skills-also-label {
+  font-size: var(--fs-8);
+  font-weight: var(--fw-400);
+  color: var(--light-gray-70);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+  .skills-grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<!-- ── end CSS ────────────────────────────────────────────────── -->
+
+
+<article class="resume hidden" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+
+  <!-- ══════════════════════════════════════════════
+       1. EXPERIENCE  (first — you're a professional)
+       ══════════════════════════════════════════════ -->
+  <!--
+  EXPERIENCE SECTION ONLY
+  Paste the <style> into your <head> or style.css
+  Replace your existing Experience <section class="timeline"> block
+-->
+
+<style>
+
+.exp-promo-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--fs-8);
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: hsl(145, 60%, 42%);
+  background: hsla(145, 60%, 30%, 0.18);
+  border: 1px solid hsla(145, 60%, 40%, 0.35);
+  padding: 2px 8px;
+  border-radius: 5px;
+  margin-left: 8px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.timeline-role-block {
+  background: var(--eerie-black-1);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-top: 10px;
+}
+
+.timeline-role-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.timeline-role-title {
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  color: var(--white-2);
+}
+
+.timeline-role-date {
+  font-size: var(--fs-8);
+  color: var(--vegas-gold);
+  font-weight: var(--fw-400);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Tools row — white text, single scrollable line */
+.tool-chips {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  margin-top: 7px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.tool-chips::-webkit-scrollbar { height: 3px; }
+.tool-chips::-webkit-scrollbar-track { background: transparent; }
+.tool-chips::-webkit-scrollbar-thumb { background: var(--jet); border-radius: 3px; }
+
+.tool-chip {
+  font-size: var(--fs-8);
+  font-weight: var(--fw-400);
+  color: var(--white-2);
+  background: transparent;
+  border: 1px solid var(--jet);
+  padding: 2px 9px;
+  border-radius: 5px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: var(--transition-1);
+}
+
+.tool-chip:hover {
+  border-color: var(--orange-yellow-crayola);
+  color: var(--orange-yellow-crayola);
+}
+
+</style>
+
+
+<!-- ── EXPERIENCE SECTION ── -->
+<section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+    <h3 class="h3">Experience</h3>
+  </div>
+
+  <ol class="timeline-list">
+
+    <!-- Kuehne+Nagel -->
+    <li class="timeline-item">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:4px;">
+        <h4 class="h4 timeline-item-title">Kuehne+Nagel</h4>
+        <span style="color:var(--vegas-gold); font-size:var(--fs-8);">Jul 2024 — Present · Hybrid</span>
+      </div>
+
+      <!-- Senior DQE -->
+      <div class="timeline-role-block">
+        <div class="timeline-role-header">
+          <span class="timeline-role-title">
+            Senior Data Quality Engineer
+          </span>
+          <span class="timeline-role-date">Jul 2025 — Present</span>
+        </div>
+        <div class="tool-chips">
+          <span class="tool-chip">Tableau</span>
+          <span class="tool-chip">PostgreSQL</span>
+          <span class="tool-chip">Databricks</span>
+          <span class="tool-chip">Excel</span>
+          <span class="tool-chip">VBA</span>
+          <span class="tool-chip">Jira</span>
+        </div>
+        <p class="timeline-text" style="margin-top:10px;">
+          • Led KPI rollout across 42+ global affiliates — SOP creation &amp; process standardisation.<br>
+          • Built Databricks validation workflows, achieving 95% data quality checks.<br>
+          • Cut SLA from 2 working days to 1 hour via dashboard automation.
+        </p>
+      </div>
+
+      <!-- DQE -->
+      <div class="timeline-role-block">
+        <div class="timeline-role-header">
+          <span class="timeline-role-title">Data Quality Engineer</span>
+          <span class="timeline-role-date">Jul 2024 — Jun 2025</span>
+        </div>
+        <p class="timeline-text" style="margin-top:4px;">
+          • Improved data quality from 80% → 99.5% across 5M+ order lines for 42 affiliates in 3 months.<br>
+          • Built OTIF &amp; KPI dashboards, automating reporting from business requirements.<br>
+          • Eliminated 150+ manual emails/month via VBA macros, saving 8–10 hrs weekly.
+        </p>
+      </div>
+    </li>
+
+
+    <!-- Pro-Vigil -->
+    <li class="timeline-item">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:4px;">
+        <h4 class="h4 timeline-item-title">Pro-Vigil Surveillance Services</h4>
+        <span style="color:var(--vegas-gold); font-size:var(--fs-8);">Sep 2023 — Jun 2024 · On-site</span>
+      </div>
+      <span style="display:block; color:var(--vegas-gold); font-size:var(--fs-7); font-weight:var(--fw-400); margin:4px 0 0;">Data Analyst</span>
+      <div class="tool-chips" style="margin-top:7px;">
+        <span class="tool-chip">Tableau</span>
+        <span class="tool-chip">MySQL</span>
+        <span class="tool-chip">Python</span>
+        <span class="tool-chip">SSMS</span>
+        <span class="tool-chip">Excel</span>
+        <span class="tool-chip">Zendesk</span>
+      </div>
+      <p class="timeline-text" style="margin-top:10px;">
+        • Processed 300K+ daily records; built 6 dashboards improving response time by 25%.<br>
+        • Built Python ETL pipeline (MySQL → Pandas → Google Sheets), cutting turnaround by 20%.<br>
+        • Delivered operational insights to multiple departments with zero data loss.
+      </p>
+    </li>
+
+
+    <!-- Chegg -->
+    <li class="timeline-item">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:4px;">
+        <h4 class="h4 timeline-item-title">Chegg</h4>
+        <span style="color:var(--vegas-gold); font-size:var(--fs-8);">Aug 2020 — Jan 2023</span>
+      </div>
+      <span style="display:block; color:var(--vegas-gold); font-size:var(--fs-7); font-weight:var(--fw-400); margin:4px 0 0;">Subject Matter Expert</span>
+      <div class="tool-chips" style="margin-top:7px;">
+        <span class="tool-chip">SQL</span>
+        <span class="tool-chip">Statistics</span>
+        <span class="tool-chip">Mathematics</span>
+      </div>
+      <p class="timeline-text" style="margin-top:10px;">
+        • Resolved 4,500+ problems in statistics, SQL &amp; mathematics with 90%+ CF score.<br>
+        • Ranked top 5% for problem-solving proficiency on the platform.<br>
+        • Consistently met deadlines across 2.5 years with high student satisfaction.
+      </p>
+    </li>
+
+  </ol>
+</section>
+
+
+   <!-- ══════════════════════════════════════════════
+       3. EDUCATION  (last — you're a professional)
+       ══════════════════════════════════════════════ -->
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+      <h3 class="h3">Education</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">IITRAM, Ahmedabad</h4>
+        <span>2019 — 2023</span>
+        <p class="h4 timeline-item-title">B.Tech in Civil Engineering &nbsp;·&nbsp; CGPA 7.3 / 10</p>
+        <p class="timeline-text">
+          Published IEEE paper: "Analysis of Land Surface Temperature at 10-Meter Pixel Size for Ahmedabad City" — using Python, Google Earth Engine, and Excel.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Gudha Public Senior Secondary School, Gudha Gorji</h4>
+        <span>2017 — 2018</span>
+        <p class="h4 timeline-item-title">12th Grade &nbsp;·&nbsp; RBSE Board</p>
+        <p class="timeline-text">Achieved 80.3% in final examination.</p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Gudha Public Senior Secondary School, Gudha Gorji</h4>
+        <span>2015 — 2016</span>
+        <p class="h4 timeline-item-title">10th Grade &nbsp;·&nbsp; RBSE Board</p>
+        <p class="timeline-text">Achieved 87.0% overall &nbsp;·&nbsp; 100 / 100 in Mathematics.</p>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       2. SKILLS  (2-column bar grid)
+       ══════════════════════════════════════════════ -->
+   <section class="skill">
+    <h3 class="h3 skills-title">My Skills</h3>
+ 
+    <div class="skills-list content-card">
+      <div class="skills-grid">
+ 
+        <!-- Column 1 -->
+        <div class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">SQL</h5>
+            <data value="90">90%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width:90%;"></div>
+          </div>
+        </div>
+ 
+        <!-- Column 2 -->
+        <div class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">Tableau</h5>
+            <data value="88">88%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width:88%;"></div>
+          </div>
+        </div>
+ 
+        <div class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">Advanced Excel &amp; VBA</h5>
+            <data value="90">90%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width:90%;"></div>
+          </div>
+        </div>
+ 
+        <div class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">Power BI (DAX, Power Query)</h5>
+            <data value="82">82%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width:82%;"></div>
+          </div>
+        </div>
+ 
+        <div class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">Python (Pandas, ETL)</h5>
+            <data value="75">75%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width:75%;"></div>
+          </div>
+        </div>
+ 
+        <div class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">Databricks &amp; Data Quality</h5>
+            <data value="78">78%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width:78%;"></div>
+          </div>
+        </div>
+ 
+ <div class="skills-also">
+  <p class="skills-also-label">Also proficient in</p>
+  <div style="display:flex; flex-wrap:wrap; gap:6px;">
+    <span class="tool-chip">Looker Studio</span>
+    <span class="tool-chip">Power Query</span>
+    <span class="tool-chip">SSMS</span>
+    <span class="tool-chip">Jira</span>
+    <span class="tool-chip">Zendesk</span>
+    <span class="tool-chip">GitHub</span>
+    <span class="tool-chip">Google Sheets</span>
+    <span class="tool-chip">Requirements Gathering</span>
+    <span class="tool-chip">Stakeholder Management</span>
+    <span class="tool-chip">Process Mapping</span>
+    <span class="tool-chip">SOP Design</span>
+  </div>
+</div>
+ 
+      </div>
+    </div>
+  </section>
+
+</article>
+
+
+    <!-- ═══════════════════════════════════════
+         PROJECTS
+    ═══════════════════════════════════════ -->
+    
+<!--
+  ════════════════════════════════════════════════════════════════
+  PROJECT SECTION — Complete replacement
+
+  HOW TO USE:
+  1. Find <article class="project" data-page="project"> in index.html
+  2. Delete that block to its closing </article>
+  3. Paste this entire file in its place
+  4. Paste the <style> block into your <head> or style.css
+
+  HOW TO ADD A NEW PROJECT:
+  Copy any <li class="project-item active"> block below.
+  Update: data-category, href, img src, title, chips, bullets, date.
+  data-category must match one of:
+    "business intelligence" | "sql & databases" | "data analysis"
+  ════════════════════════════════════════════════════════════════
+-->
+
+<style>
+
+/* ── Project card: full redesign with chips + bullets + link ── */
+.project-item > a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* image box */
+.project-img {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  border-radius: 14px 14px 0 0;
+  overflow: hidden;
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+
+.project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  display: block;
+}
+
+.project-item > a:hover .project-img img { transform: scale(1.06); }
+
+.project-img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: transparent;
+  z-index: 1;
+  transition: var(--transition-1);
+}
+
+.project-item > a:hover .project-img::before {
+  background: hsla(0, 0%, 0%, 0.45);
+}
+
+.project-item-icon-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  background: var(--jet);
+  color: var(--orange-yellow-crayola);
+  font-size: 20px;
+  padding: 16px;
+  border-radius: 12px;
+  opacity: 0;
+  z-index: 2;
+  transition: var(--transition-1);
+}
+
+.project-item > a:hover .project-item-icon-box {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* card body below image */
+.project-card-body {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  border-radius: 0 0 14px 14px;
+  padding: 14px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  z-index: 1;
+}
+
+.project-card-body::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background: var(--bg-gradient-jet);
+  z-index: -1;
+}
+
+/* category tag */
+.project-tag {
+  font-size: var(--fs-8);
+  font-weight: var(--fw-400);
+  color: var(--orange-yellow-crayola);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* title */
+.project-title {
+  font-size: var(--fs-5);
+  font-weight: var(--fw-500);
+  color: var(--white-2);
+  margin-bottom: 8px;
+  line-height: 1.3;
+  transition: var(--transition-1);
+}
+
+.project-item > a:hover .project-title {
+  color: var(--orange-yellow-crayola);
+}
+
+/* tool chips row */
+.project-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.project-chip {
+  font-size: var(--fs-8);
+  color: var(--white-2);
+  background: transparent;
+  border: 1px solid var(--jet);
+  padding: 2px 8px;
+  border-radius: 5px;
+  white-space: nowrap;
+  transition: var(--transition-1);
+}
+
+.project-item > a:hover .project-chip {
+  border-color: var(--vegas-gold);
+  color: var(--orange-yellow-crayola);
+}
+
+/* bullet points */
+.project-bullets {
+  font-size: var(--fs-7);
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin-bottom: 12px;
+  flex: 1;
+}
+
+/* footer: date + link */
+.project-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-top: 1px solid var(--jet);
+  margin-top: auto;
+}
+
+.project-date {
+  font-size: var(--fs-8);
+  color: var(--light-gray-70);
+  font-weight: var(--fw-300);
+}
+
+.project-link-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--fs-8);
+  font-weight: var(--fw-500);
+  color: var(--orange-yellow-crayola);
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid var(--vegas-gold);
+  padding: 3px 10px;
+  border-radius: 5px;
+  transition: var(--transition-1);
+  white-space: nowrap;
+}
+
+.project-link-btn:hover {
+  background: var(--orange-yellow-crayola);
+  color: var(--smoky-black);
+}
+
+.project-link-btn ion-icon { font-size: 12px; }
+
+/* override project-list to work with new card structure */
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .project-list { grid-template-columns: 1fr 1fr; }
+}
+
+@media (min-width: 1024px) {
+  .project-list { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* make each project-item a flex column so body fills height */
+.project-item {
+  display: none;
+  flex-direction: column;
+}
+
+.project-item.active {
+  display: flex;
+  animation: scaleUp 0.25s ease forwards;
+}
+
+</style>
+
+
+<article class="project hidden" data-page="project">
+
+  <header>
+    <h2 class="h2 article-title">Projects</h2>
+  </header>
+
+  <section class="projects">
+
+    <!-- ── Filter buttons (desktop) ── -->
+    <ul class="filter-list">
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Business Intelligence</button>
+      </li>
+       <li class="filter-item">
+        <button data-filter-btn>Data Analysis</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>SQL &amp; Databases</button>
+      </li>
+
+    </ul>
+
+    <!-- ── Filter dropdown (mobile) ── -->
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select category</div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>All</button></li>
+        <li class="select-item"><button data-select-item>Business Intelligence</button></li>
+        <li class="select-item"><button data-select-item>Data Analysis</button></li>
+        <li class="select-item"><button data-select-item>SQL &amp; Databases</button></li>
+
+      </ul>
+    </div>
+
+
+    <!-- ══════════════════════════════════════════
+         PROJECT LIST
+         data-category must be lowercase and match
+         one of the filter button texts exactly
+         ══════════════════════════════════════════ -->
+    <ul class="project-list">
+
+
+      <!-- ── Project 1: Stock Performance Dashboard ── -->
+      <!-- Category: business intelligence -->
+      <li class="project-item active" data-filter-item data-category="business intelligence">
+        <a href="https://lookerstudio.google.com/reporting/5420eed4-cb50-432b-b6d7-29c9acfc5ec4"
+           target="_blank" rel="noopener">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <!-- Replace with a screenshot of your dashboard -->
+            <img src="./assets/images/project-1.png"
+                 alt="Stock Performance Insights Dashboard" loading="lazy">
+          </figure>
+
+          <div class="project-card-body">
+            <span class="project-tag">Business Intelligence</span>
+            <h3 class="project-title">Stock Performance Insights Dashboard</h3>
+
+            <div class="project-chips">
+              <span class="project-chip">Looker Studio</span>
+              <span class="project-chip">SQL</span>
+              <span class="project-chip">Google Sheets</span>
+            </div>
+
+            <p class="project-bullets">
+              • Reduced analysis time by 30% via interactive stock trend dashboard.<br>
+              • Improved portfolio returns by 9% through sector performance insights.
+            </p>
+
+            <div class="project-card-footer">
+              <span class="project-date">Jun – Aug 2023</span>
+              <span class="project-link-btn">
+                <ion-icon name="open-outline"></ion-icon> Live Link
+              </span>
+            </div>
+          </div>
+
+        </a>
+      </li>
+
+
+      <!-- ── Project 2: HR Attrition Dashboard ── -->
+      <!-- Category: business intelligence -->
+      <li class="project-item active" data-filter-item data-category="business intelligence">
+        <a href="https://drive.google.com/drive/folders/1wvRR9XTCdPMLVwUAm61ipyHHR38_pNCW"
+           target="_blank" rel="noopener">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-2.png"
+                 alt="HR Attrition Analytics Dashboard" loading="lazy">
+          </figure>
+
+          <div class="project-card-body">
+            <span class="project-tag">Business Intelligence</span>
+            <h3 class="project-title">HR Attrition Analytics Dashboard</h3>
+
+            <div class="project-chips">
+              <span class="project-chip">Power BI</span>
+              <span class="project-chip">DAX</span>
+              <span class="project-chip">Power Query</span>
+            </div>
+
+            <p class="project-bullets">
+              • Modeled 1,000+ employee records tracking attrition, tenure &amp; performance.<br>
+              • Identified high-risk departments and early-resignation trends.
+            </p>
+
+            <div class="project-card-footer">
+              <span class="project-date">Feb – Mar 2023</span>
+              <span class="project-link-btn">
+                <ion-icon name="open-outline"></ion-icon> Live Link
+              </span>
+            </div>
+          </div>
+
+        </a>
+      </li>
+
+
+      <!-- ── Project 3: Retail Business Analytics ── -->
+      <!-- Category: data analysis -->
+      <li class="project-item active" data-filter-item data-category="data analysis">
+        <a href="https://docs.google.com/spreadsheets/d/1iqUQtY48ifK_DVf5zbS_Zu7tj8HEZkyo/"
+           target="_blank" rel="noopener">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-3.png"
+                 alt="Retail Business Analytics Dashboard" loading="lazy">
+          </figure>
+
+          <div class="project-card-body">
+            <span class="project-tag">Data Analysis</span>
+            <h3 class="project-title">Retail Business Analytics Dashboard</h3>
+
+            <div class="project-chips">
+              <span class="project-chip">Excel</span>
+              <span class="project-chip">Power Query</span>
+              <span class="project-chip">Pivot Tables</span>
+            </div>
+
+            <p class="project-bullets">
+              • Cleaned 2 years of sales data; built pivot dashboard tracking revenue &amp; regional trends.<br>
+              • Contributed to a 20% improvement in 2022 sales strategy.
+            </p>
+
+            <div class="project-card-footer">
+              <span class="project-date">Jan – Feb 2023</span>
+              <span class="project-link-btn">
+                <ion-icon name="open-outline"></ion-icon> Live Link
+              </span>
+            </div>
+          </div>
+
+        </a>
+      </li>
+
+
+      <!--
+        ════════════════════════════════════════════
+        HOW TO ADD A NEW PROJECT — copy this block:
+        ════════════════════════════════════════════
+
+      <li class="project-item active" data-filter-item data-category="CATEGORY HERE">
+        <a href="YOUR LIVE LINK" target="_blank" rel="noopener">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/YOUR-IMAGE.jpg" alt="Project name" loading="lazy">
+          </figure>
+
+          <div class="project-card-body">
+            <span class="project-tag">Category Name</span>
+            <h3 class="project-title">Your Project Title</h3>
+
+            <div class="project-chips">
+              <span class="project-chip">Tool 1</span>
+              <span class="project-chip">Tool 2</span>
+              <span class="project-chip">Tool 3</span>
+            </div>
+
+            <p class="project-bullets">
+              • Key result or metric from this project.<br>
+              • Second key result or what you built.
+            </p>
+
+            <div class="project-card-footer">
+              <span class="project-date">Mon YYYY – Mon YYYY</span>
+              <span class="project-link-btn">
+                <ion-icon name="open-outline"></ion-icon> Live Link
+              </span>
+            </div>
+          </div>
+
+        </a>
+      </li>
+
+        data-category options (must be lowercase, must match filter exactly):
+          "business intelligence"
+          "sql & databases"
+          "data analysis"
+        ════════════════════════════════════════════
+      -->
+
+
+    </ul>
+
+  </section>
+
+</article>
+
+    <!-- ═══════════════════════════════════════
+         ACCOMPLISHMENT
+    ═══════════════════════════════════════ -->
+
+ <!--
+  ACCOMPLISHMENT SECTION — Updated
+  Changes from previous version:
+  1. Verified badge → same green as "Open to New Roles" sidebar badge
+  2. Removed star icon from Verified badge
+  3. Arrow proof link → same green, proper hyperlink styling
+  4. Real cert URLs wired in
+-->
+
+<style>
+
+.accomplishment .icon-box {
+  background: var(--eerie-black-2);
+  border: 1px solid var(--orange-yellow-crayola);
+  color: var(--orange-yellow-crayola);
+  box-shadow: none;
+}
+.accomplishment .icon-box::before { background: var(--eerie-black-1); }
+
+/* ── Publications ── */
+.pub-list { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px; }
+.pub-item {
+  position:relative; display:flex; align-items:flex-start; gap:14px;
+  background:var(--border-gradient-onyx); border-radius:14px; padding:11px 14px;
+  box-shadow:var(--shadow-2); z-index:1; transition:var(--transition-1);
+}
+.pub-item::before { content:""; position:absolute; inset:1px; border-radius:inherit; background:var(--bg-gradient-jet); z-index:-1; }
+.pub-item:hover { box-shadow: 0 0 0 1px var(--orange-yellow-crayola), var(--shadow-2); }
+.pub-icon {
+  position:relative; background:var(--border-gradient-onyx);
+  width:36px; height:36px; min-width:36px; border-radius:8px;
+  display:flex; justify-content:center; align-items:center;
+  font-size:16px; color:var(--orange-yellow-crayola); box-shadow:var(--shadow-1); z-index:1;
+}
+.pub-icon::before { content:""; position:absolute; inset:1px; background:var(--eerie-black-1); border-radius:inherit; z-index:-1; }
+.pub-body { flex:1; min-width:0; }
+.pub-title {
+  display:inline; font-size:var(--fs-6); font-weight:var(--fw-500);
+  background:var(--text-gradient-yellow); -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent; background-clip:text;
+  line-height:1.35; text-decoration:none; transition:var(--transition-1);
+}
+.pub-title:hover { opacity:0.8; text-decoration:underline; }
+.pub-meta { display:flex; align-items:center; gap:6px; margin-top:4px; margin-bottom:5px; flex-wrap:wrap; }
+.pub-venue { color:var(--light-gray-70); font-size:var(--fs-8); font-weight:var(--fw-300); font-style:italic; margin:0; }
+.pub-meta time { color:var(--light-gray-70); font-size:var(--fs-8); font-weight:var(--fw-300); }
+.pub-meta .dot { background:var(--light-gray-70); width:4px; height:4px; border-radius:50%; display:inline-block; }
+.pub-desc { color:var(--light-gray); font-size:var(--fs-7); font-weight:var(--fw-300); line-height:1.55; margin:0; }
+.pub-badge {
+  font-size:var(--fs-8); font-weight:var(--fw-500); text-transform:uppercase; letter-spacing:0.06em;
+  color:var(--orange-yellow-crayola); border:1px solid var(--vegas-gold);
+  padding:2px 8px; border-radius:5px; white-space:nowrap; align-self:flex-start; flex-shrink:0; opacity:0.75;
+}
+
+/* ── Certificates ── */
+.cert-list {
+  display:flex; gap:20px; overflow-x:auto; padding-bottom:8px;
+  list-style:none; padding-left:0; margin:0; scroll-snap-type:x mandatory;
+}
+.cert-list::-webkit-scrollbar { height:5px; }
+.cert-list::-webkit-scrollbar-track { background:var(--onyx); border-radius:5px; }
+.cert-list::-webkit-scrollbar-thumb { background:var(--orange-yellow-crayola); border-radius:5px; }
+.cert-item { min-width:260px; max-width:260px; scroll-snap-align:start; flex-shrink:0; }
+.cert-item > a {
+  position:relative; display:block; background:var(--border-gradient-onyx);
+  border-radius:16px; box-shadow:var(--shadow-4); overflow:hidden;
+  text-decoration:none; color:inherit; z-index:1; transition:var(--transition-1);
+}
+.cert-item > a::before { content:""; position:absolute; inset:1px; border-radius:inherit; background:var(--eerie-black-1); z-index:-1; }
+.cert-item > a:hover { box-shadow: 0 0 0 1px var(--orange-yellow-crayola), var(--shadow-4); }
+.cert-banner { width:100%; height:160px; overflow:hidden; margin:0; position:relative; }
+.cert-banner img { width:100%; height:100%; object-fit:cover; transition:var(--transition-1); }
+.cert-item > a:hover .cert-banner img { transform:scale(1.06); }
+.cert-banner::after {
+  content:"↗ View"; position:absolute; top:10px; right:10px;
+  background:var(--orange-yellow-crayola); color:var(--smoky-black);
+  font-size:11px; font-weight:600; padding:3px 9px; border-radius:6px;
+  opacity:0; transition:var(--transition-1);
+}
+.cert-item > a:hover .cert-banner::after { opacity:1; }
+.cert-content { padding:15px; }
+.cert-meta { display:flex; align-items:center; gap:7px; margin-bottom:8px; }
+.cert-type { color:var(--light-gray-70); font-size:var(--fs-8); text-transform:uppercase; letter-spacing:0.05em; font-weight:var(--fw-300); margin:0; }
+.cert-meta time { color:var(--light-gray-70); font-size:var(--fs-8); font-weight:var(--fw-300); }
+.cert-meta .dot { background:var(--light-gray-70); width:4px; height:4px; border-radius:50%; display:inline-block; }
+.cert-title { font-size:var(--fs-6); font-weight:var(--fw-500); line-height:1.35; margin-bottom:6px; color:var(--white-2); transition:var(--transition-1); }
+.cert-item > a:hover .cert-title { color:var(--orange-yellow-crayola); }
+.cert-org { color:var(--light-gray); font-size:var(--fs-8); font-weight:var(--fw-300); margin:0; }
+
+/* ── Achievements ── */
+.ach-list { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px; }
+.ach-item {
+  position:relative; display:flex; align-items:flex-start; gap:14px;
+  background:var(--border-gradient-onyx); border-radius:14px; padding:11px 14px;
+  box-shadow:var(--shadow-2); z-index:1; transition:var(--transition-1);
+}
+.ach-item::before { content:""; position:absolute; inset:1px; border-radius:inherit; background:var(--bg-gradient-jet); z-index:-1; }
+.ach-item:hover { box-shadow: 0 0 0 1px var(--orange-yellow-crayola), var(--shadow-2); }
+.ach-icon {
+  position:relative; background:var(--border-gradient-onyx);
+  width:36px; height:36px; min-width:36px; border-radius:8px;
+  display:flex; justify-content:center; align-items:center;
+  font-size:16px; color:var(--orange-yellow-crayola); box-shadow:var(--shadow-1); z-index:1;
+}
+.ach-icon::before { content:""; position:absolute; inset:1px; background:var(--eerie-black-1); border-radius:inherit; z-index:-1; }
+.ach-body { flex:1; min-width:0; }
+.ach-title {
+  font-size:var(--fs-6); font-weight:var(--fw-500);
+  background:var(--text-gradient-yellow); -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent; background-clip:text;
+  margin-bottom:4px; line-height:1.3;
+}
+.ach-desc { color:var(--light-gray); font-size:var(--fs-7); font-weight:var(--fw-300); line-height:1.55; margin:0; }
+
+/* right column */
+.ach-right {
+  display:flex; flex-direction:column; align-items:flex-end;
+  gap:5px; flex-shrink:0; align-self:flex-start;
+}
+
+/* category badge — yellow outlined (unchanged) */
+.ach-badge {
+  font-size:var(--fs-8); font-weight:var(--fw-500); text-transform:uppercase; letter-spacing:0.06em;
+  color:var(--orange-yellow-crayola); border:1px solid var(--vegas-gold);
+  padding:2px 8px; border-radius:5px; white-space:nowrap; opacity:0.75;
+}
+
+
+
+
+
+/* ✅ Proof arrow link — green, bottom of right column, opens proof in new tab */
+.ach-proof {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #4ade80;
+  background: rgba(74, 222, 128, 0.08);
+  border: 1px solid rgba(74, 222, 128, 0.3);
+  border-radius: 5px;
+  padding: 2px 8px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: var(--transition-1);
+}
+.ach-proof:hover {
+  background: rgba(74, 222, 128, 0.18);
+  border-color: #4ade80;
+  color: #86efac;
+}
+
+.accomplishment .timeline { padding-bottom:30px; }
+
+</style>
+
+
+<article class="accomplishment hidden" data-page="accomplishment">
+
+  <header>
+    <h2 class="h2 article-title">Accomplishments</h2>
+  </header>
+
+  <ol class="timeline-list">
+
+    <!-- PUBLICATIONS -->
+    <li class="timeline-item">
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box"><ion-icon name="document-text-outline"></ion-icon></div>
+          <h3 class="h3">Publications</h3>
+        </div>
+        <ul class="pub-list">
+          <li class="pub-item">
+            <div class="pub-icon"><ion-icon name="document-text-outline"></ion-icon></div>
+            <div class="pub-body">
+              <!-- ✏️ Replace with your actual IEEE paper URL -->
+              <a class="pub-title" href="https://ieeexplore.ieee.org/document/10183518" target="_blank" rel="noopener">
+                Analysis of Land Surface Temperature at 10-Meter Pixel Size for Ahmedabad City
+              </a>
+              <div class="pub-meta">
+                <p class="pub-venue">IEEE Xplore</p>
+                <span class="dot"></span>
+                <time datetime="2023-06-01">2023</time>
+              </div>
+              <p class="pub-desc">Used Python, Google Earth Engine &amp; Excel for spatial analysis and temperature mapping at 10-metre resolution across Ahmedabad city.</p>
+            </div>
+            <span class="pub-badge">IEEE</span>
+          </li>
+        </ul>
+      </section>
+    </li>
+
+
+    <!-- CERTIFICATIONS -->
+    <li class="timeline-item">
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box"><ion-icon name="ribbon-outline"></ion-icon></div>
+          <h3 class="h3">Certifications</h3>
+        </div>
+        <ul class="cert-list has-scrollbar">
+
+          <li class="cert-item">
+            <a href="https://drive.google.com/file/d/14d0ZjoNA8UA1nLiGhZAq4bIfVWONmmqr/view?usp=sharing" target="_blank" rel="noopener">
+              <figure class="cert-banner">
+                <img src="./assets/images/blog-1.png" alt="Tableau Desktop Specialist" loading="lazy">
+              </figure>
+              <div class="cert-content">
+                <div class="cert-meta">
+                  <p class="cert-type">Tableau</p><span class="dot"></span>
+                  <time datetime="2026-04-23">2026</time>
+                </div>
+                <h3 class="cert-title">Tableau Desktop Specialist</h3>
+                <p class="cert-org">LOD expressions, Prep, dashboards &amp; parameters.</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="cert-item">
+            <a href="https://drive.google.com/file/d/1j-RJwTKAiKF5kmGoH5m8L3rDT0zHkDya/view?usp=sharing" target="_blank" rel="noopener">
+              <figure class="cert-banner">
+                <img src="./assets/images/blog-2.png" alt="Power Automate" loading="lazy">
+              </figure>
+              <div class="cert-content">
+                <div class="cert-meta">
+                  <p class="cert-type">Microsoft</p><span class="dot"></span>
+                  <time datetime="2025-07-04">2025</time>
+                </div>
+                <h3 class="cert-title">Power Automate — Microsoft Certified</h3>
+                <p class="cert-org">Workflow automation and process integration.</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="cert-item">
+            <a href="https://www.hackerrank.com/certificates/fde9e2848e55" target="_blank" rel="noopener">
+              <figure class="cert-banner">
+                <img src="./assets/images/blog-3.png" alt="SQL Certificate" loading="lazy">
+              </figure>
+              <div class="cert-content">
+                <div class="cert-meta">
+                  <p class="cert-type">HackerRank</p><span class="dot"></span>
+                  <time datetime="2023-01-01">2023</time>
+                </div>
+                <h3 class="cert-title">SQL Advanced Certificate</h3>
+                <p class="cert-org">Window functions, CTEs, complex joins &amp; query optimisation.</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="cert-item">
+            <a href="https://www.hackerrank.com/certificates/aba0e7eafa5d" target="_blank" rel="noopener">
+              <figure class="cert-banner">
+                <img src="./assets/images/blog-4.png" alt="Python Certificate" loading="lazy">
+              </figure>
+              <div class="cert-content">
+                <div class="cert-meta">
+                  <p class="cert-type">HackerRank</p><span class="dot"></span>
+                  <time datetime="2022-01-01">2022</time>
+                </div>
+                <h3 class="cert-title">Python Certificate</h3>
+                <p class="cert-org">Data manipulation with Pandas and Python scripting.</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="cert-item">
+            <a href="https://drive.google.com/file/d/19hhOMovIqi1gIFvWo5W8ZtjAvIIKffd7/view?usp=sharing" target="_blank" rel="noopener">
+              <figure class="cert-banner">
+                <img src="./assets/images/blog-5.png" alt="SME Chegg" loading="lazy">
+              </figure>
+              <div class="cert-content">
+                <div class="cert-meta">
+                  <p class="cert-type">Chegg</p><span class="dot"></span>
+                  <time datetime="2023-01-01">2023</time>
+                </div>
+                <h3 class="cert-title">Subject Matter Expert — Chegg</h3>
+                <p class="cert-org">Statistics, SQL &amp; Mathematics · Top 5% problem solver.</p>
+              </div>
+            </a>
+          </li>
+
+        </ul>
+      </section>
+    </li>
+
+
+    <!-- ACHIEVEMENTS -->
+    <li class="timeline-item">
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box"><ion-icon name="star-outline"></ion-icon></div>
+          <h3 class="h3">Awards &amp; Achievements</h3>
+        </div>
+        <ul class="ach-list">
+
+          <!-- WITH PROOF — ✏️ Replace href="#" with your Google Drive proof link -->
+          <li class="ach-item">
+            <div class="ach-icon"><ion-icon name="trending-up-outline"></ion-icon></div>
+            <div class="ach-body">
+              <p class="ach-title">Promoted to Senior DQE within 12 months — Kuehne+Nagel</p>
+              <p class="ach-desc">Led global KPI rollout across 42+ affiliates, delivering measurable improvements in data quality and reporting speed.</p>
+            </div>
+            <div class="ach-right">
+              <span class="ach-badge">Promotion</span>
+            
+              <!-- ✏️ Replace # with your proof link -->
+              <a class="ach-proof" href="#" target="_blank" rel="noopener">↗ View</a>
+            </div>
+          </li>
+
+          <!-- WITH PROOF -->
+          <li class="ach-item">
+            <div class="ach-icon"><ion-icon name="ribbon-outline"></ion-icon></div>
+            <div class="ach-body">
+              <p class="ach-title">10+ Recognitions — Kuehne+Nagel</p>
+              <p class="ach-desc">Received over 10 internal recognitions for contributions to data quality governance and global reporting automation.</p>
+            </div>
+            <div class="ach-right">
+              <span class="ach-badge">KN Award</span>
+            
+              <!-- ✏️ Replace # with your proof link -->
+              <p class="ach-proof" href="#" target="_blank" rel="noopener">↗ View</a>
+            </div>
+          </li>
+
+          <!-- WITH PROOF -->
+          <li class="ach-item">
+            <div class="ach-icon"><ion-icon name="trophy-outline"></ion-icon></div>
+            <div class="ach-body">
+              <p class="ach-title">Employee of the Month — Pro-Vigil (within 3 months)</p>
+              <p class="ach-desc">Recognised for processing 300K+ daily records, building 6 dashboards, and cutting reporting turnaround by 20% via Python ETL.</p>
+            </div>
+            <div class="ach-right">
+              <span class="ach-badge">Work</span>
+            
+              <!-- ✏️ Replace # with your proof link -->
+              <a class="ach-proof" href="#" target="_blank" rel="noopener">↗ View</a>
+            </div>
+          </li>
+
+          <!-- NO PROOF — KPI metric -->
+          <li class="ach-item">
+            <div class="ach-icon"><ion-icon name="bar-chart-outline"></ion-icon></div>
+            <div class="ach-body">
+              <p class="ach-title">Data Quality: 80% → 99.5% across 5M+ order lines</p>
+              <p class="ach-desc">Achieved across 42 global affiliates within 3 months, consistently exceeding the 95% SLA target.</p>
+            </div>
+            <div class="ach-right">
+              <span class="ach-badge">KPI</span>
+            </div>
+          </li>
+
+          <!-- NO PROOF — KPI metric -->
+          <li class="ach-item">
+            <div class="ach-icon"><ion-icon name="flash-outline"></ion-icon></div>
+            <div class="ach-body">
+              <p class="ach-title">SLA Reduction: 2 Working Days → 1 Hour</p>
+              <p class="ach-desc">Automated end-to-end reporting and dashboard refresh using Databricks, achieving a 48× speed improvement.</p>
+            </div>
+            <div class="ach-right">
+              <span class="ach-badge">KPI</span>
+            </div>
+          </li>
+
+          <li class="ach-item">
+            <div class="ach-icon"><ion-icon name="podium-outline"></ion-icon></div>
+            <div class="ach-body">
+              <p class="ach-title">Top 5% Problem Solver — Chegg (2020–2023)</p>
+              <p class="ach-desc">Resolved 5,000+ problems in statistics, SQL, and mathematics with a CF score above 90%.</p>
+            </div>
+            <div class="ach-right">
+              <span class="ach-badge">Chegg</span>
+            </div>
+          </li>
+
+          <li class="ach-item">
+            <div class="ach-icon"><ion-icon name="school-outline"></ion-icon></div>
+            <div class="ach-body">
+              <p class="ach-title">100/100 in Mathematics — Class X (RBSE Board)</p>
+              <p class="ach-desc">Scored a perfect 100 in Mathematics in the 10th grade board examination.</p>
+            </div>
+            <div class="ach-right">
+              <span class="ach-badge">Academic</span>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+    </li>
+
+  </ol>
+
+</article>
+    <!-- ═══════════════════════════════════════
+         CONTACT
+    ═══════════════════════════════════════ -->
+ <style>
+    .contact-info-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:28px; }
+    .contact-card {
+      position:relative; display:flex; align-items:flex-start; gap:12px;
+      background:var(--border-gradient-onyx); border-radius:14px; padding:14px 16px;
+      box-shadow:var(--shadow-2); text-decoration:none; color:inherit; z-index:1; transition:var(--transition-1);
+    }
+    .contact-card::before { content:""; position:absolute; inset:1px; border-radius:inherit; background:var(--bg-gradient-jet); z-index:-1; }
+    .contact-card:hover { box-shadow: 0 0 0 1px var(--orange-yellow-crayola), var(--shadow-2); }
+    .contact-card.full { grid-column:span 2; }
+    .contact-card-icon {
+      position:relative; background:var(--border-gradient-onyx);
+      width:36px; height:36px; min-width:36px; border-radius:8px;
+      display:flex; justify-content:center; align-items:center;
+      font-size:16px; color:var(--orange-yellow-crayola); box-shadow:var(--shadow-1); z-index:1; flex-shrink:0;
+    }
+    .contact-card-icon::before { content:""; position:absolute; inset:1px; background:var(--eerie-black-1); border-radius:inherit; z-index:-1; }
+    .contact-card-icon ion-icon { --ionicon-stroke-width:35px; }
+    .contact-card-body { flex:1; min-width:0; }
+    .contact-card-label { color:var(--light-gray-70); font-size:var(--fs-8); font-weight:var(--fw-300); text-transform:uppercase; letter-spacing:0.06em; margin:0 0 3px; }
+    .contact-card-value { color:var(--white-2); font-size:var(--fs-7); font-weight:var(--fw-400); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin:0; display:block; }
+    .contact-card:hover .contact-card-value { color:var(--orange-yellow-crayola); }
+    .contact-divider { display:flex; align-items:center; gap:12px; margin-bottom:22px; }
+    .contact-divider::before, .contact-divider::after { content:""; flex:1; height:1px; background:var(--jet); }
+    .contact-divider span { color:var(--light-gray-70); font-size:var(--fs-8); font-weight:var(--fw-300); text-transform:uppercase; letter-spacing:0.1em; white-space:nowrap; }
+    .contact-form-inner { display:flex; flex-direction:column; gap:0; }
+    .form-row { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:14px; }
+    .form-group { display:flex; flex-direction:column; gap:6px; }
+    .form-group.full { grid-column:span 2; }
+    .form-label { color:var(--light-gray-70); font-size:var(--fs-8); font-weight:var(--fw-400); text-transform:uppercase; letter-spacing:0.06em; }
+    .form-input {
+      color:var(--white-2); font-size:var(--fs-6); font-weight:var(--fw-400);
+      padding:11px 16px; border:1px solid var(--jet); border-radius:12px;
+      outline:none; background:var(--eerie-black-1); transition:border-color var(--transition-1);
+      width:100%; box-sizing:border-box;
+    }
+    .form-input::placeholder { color:var(--light-gray-70); font-weight:var(--fw-300); }
+    .form-input:focus { border-color:var(--orange-yellow-crayola); }
+    textarea.form-input { min-height:120px; resize:vertical; font-family:inherit; }
+    .contact-submit-row { display:flex; align-items:center; justify-content:space-between; gap:14px; margin-top:6px; flex-wrap:wrap; }
+    .contact-note { color:var(--light-gray-70); font-size:var(--fs-8); font-weight:var(--fw-300); flex:1; min-width:160px; }
+    .form-btn {
+      display:flex; align-items:center; gap:8px; padding:11px 24px; border-radius:12px;
+      font-size:var(--fs-6); font-weight:var(--fw-500); color:var(--orange-yellow-crayola);
+      background:var(--border-gradient-onyx); box-shadow:var(--shadow-3);
+      border:none; cursor:pointer; position:relative; z-index:1;
+      transition:var(--transition-1); text-transform:capitalize; white-space:nowrap;
+    }
+    .form-btn::before { content:""; position:absolute; inset:1px; border-radius:inherit; background:var(--bg-gradient-jet); z-index:-1; transition:var(--transition-1); }
+    .form-btn:hover { background:var(--bg-gradient-yellow-1); }
+    .form-btn:hover::before { background:var(--bg-gradient-yellow-2); }
+    .form-btn:disabled { opacity:0.6; cursor:not-allowed; }
+    .form-btn ion-icon { font-size:16px; }
+    .contact-toast { display:none; align-items:center; gap:10px; margin-top:14px; padding:11px 16px; border-radius:10px; font-size:var(--fs-7); font-weight:var(--fw-400); }
+    .contact-toast.success { background:hsla(145,60%,20%,0.4); border:1px solid hsla(145,60%,40%,0.4); color:hsl(145,60%,70%); }
+    .contact-toast.error { background:hsla(0,60%,20%,0.4); border:1px solid hsla(0,60%,40%,0.4); color:hsl(0,60%,70%); }
+    .contact-toast.show { display:flex; }
+    .contact-toast ion-icon { font-size:18px; flex-shrink:0; }
+    @media (max-width:500px) {
+      .contact-info-grid { grid-template-columns:1fr; }
+      .contact-card.full { grid-column:span 1; }
+      .form-row { grid-template-columns:1fr; }
+      .form-group.full { grid-column:span 1; }
+      .contact-submit-row { flex-direction:column; align-items:flex-start; }
+    }
+    </style>
+ 
+    <article class="contact hidden" data-page="contact">
+ 
+      <header>
+        <h2 class="h2 article-title">Contact</h2>
+      </header>
+ 
+      <p style="color:var(--light-gray);font-size:var(--fs-6);font-weight:var(--fw-300);line-height:1.6;margin-bottom:24px;">
+        Have an opportunity or project in mind? Feel free to reach out.
+      </p>
+ 
+      <div class="contact-info-grid">
+ 
+        <a class="contact-card" href="https://www.linkedin.com/in/rahul903/" target="_blank" rel="noopener">
+          <div class="contact-card-icon"><ion-icon name="logo-linkedin"></ion-icon></div>
+          <div class="contact-card-body">
+            <p class="contact-card-label">LinkedIn</p>
+            <span class="contact-card-value">Connect with me</span>
+          </div>
+          <span class="contact-card-arrow">↗</span>
+        </a>
+ 
+        <a class="contact-card" href="https://www.instagram.com/rk_.choudhary/" target="_blank" rel="noopener">
+          <div class="contact-card-icon"><ion-icon name="logo-instagram"></ion-icon></div>
+          <div class="contact-card-body">
+            <p class="contact-card-label">Instagram</p>
+            <span class="contact-card-value">@rk_.choudhary</span>
+          </div>
+          <span class="contact-card-arrow">↗</span>
+        </a>
+ 
+      </div>
+ 
+      <div class="contact-divider"><span>Send me a message</span></div>
+ 
+      <form class="contact-form-inner" id="contactForm" novalidate>
+        <input type="hidden" name="access_key" value="6343e0ee-3d2b-47f9-a6be-094fb902cb35">
+        <input type="hidden" name="subject" value="New message from Portfolio">
+        <input type="checkbox" name="botcheck" style="display:none;">
+ 
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="contact-name">Full Name</label>
+            <input id="contact-name" type="text" name="name" class="form-input" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="contact-email">Email Address</label>
+            <input id="contact-email" type="email" name="email" class="form-input" placeholder="you@example.com" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group full">
+            <label class="form-label" for="contact-subject">Subject</label>
+            <input id="contact-subject" type="text" name="subject_line" class="form-input" placeholder="Job Opportunity / Project...">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group full">
+            <label class="form-label" for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" class="form-input" placeholder="Write your message here..." required></textarea>
+          </div>
+        </div>
+        <div class="contact-submit-row">
+          <p class="contact-note">I'll get back to you within 24–48 hours.</p>
+          <button class="form-btn" type="submit" id="contactSubmitBtn">
+            <ion-icon name="paper-plane-outline"></ion-icon>
+            <span>Send Message</span>
+          </button>
+        </div>
+      </form>
+ 
+      <div class="contact-toast success" id="contactSuccess">
+        <ion-icon name="checkmark-circle-outline"></ion-icon>
+        <span>Message sent! I'll get back to you soon.</span>
+      </div>
+      <div class="contact-toast error" id="contactError">
+        <ion-icon name="alert-circle-outline"></ion-icon>
+        <span id="contactErrorText">Something went wrong. Email me at <a href="mailto:7024447182rahul@gmail.com" style="color:inherit;text-decoration:underline;">7024447182rahul@gmail.com</a></span>
+      </div>
+ 
+    </article>
+ 
+  </div><!-- end main-content -->
+ 
+</main>
+ 
+<!-- SCRIPTS — correct order, each once only -->
+<script src="./assets/js/script.js"></script>
+ 
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ 
+<!-- Web3Forms handler — only script for the form -->
+<script>
+(function () {
+  var form       = document.getElementById('contactForm');
+  var successMsg = document.getElementById('contactSuccess');
+  var errorMsg   = document.getElementById('contactError');
+  var errorText  = document.getElementById('contactErrorText');
+ 
+  if (!form) return;
+ 
+  var cleanForm = form.cloneNode(true);
+  form.parentNode.replaceChild(cleanForm, form);
+  var submitBtn = cleanForm.querySelector('#contactSubmitBtn');
+ 
+  cleanForm.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    e.stopImmediatePropagation();
+ 
+    var name    = cleanForm.querySelector('#contact-name').value.trim();
+    var email   = cleanForm.querySelector('#contact-email').value.trim();
+    var message = cleanForm.querySelector('#contact-message').value.trim();
+ 
+    successMsg.classList.remove('show');
+    errorMsg.classList.remove('show');
+ 
+    if (!name || !email || !message) {
+      errorText.textContent = 'Please fill in your name, email, and message.';
+      errorMsg.classList.add('show');
+      setTimeout(function () { errorMsg.classList.remove('show'); }, 5000);
+      return;
+    }
+ 
+    submitBtn.disabled = true;
+    submitBtn.querySelector('span').textContent = 'Sending\u2026';
+ 
+    try {
+      var formData = new FormData(cleanForm);
+      var response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      });
+      var data = await response.json();
+ 
+      if (data.success) {
+        cleanForm.reset();
+        successMsg.classList.add('show');
+        setTimeout(function () { successMsg.classList.remove('show'); }, 7000);
+      } else {
+        errorText.innerHTML = (data.message || 'Submission failed.') + ' Email me at <a href="mailto:7024447182rahul@gmail.com" style="color:inherit;text-decoration:underline;">7024447182rahul@gmail.com</a>';
+        errorMsg.classList.add('show');
+      }
+    } catch (err) {
+      errorText.innerHTML = 'Network error. Email me at <a href="mailto:7024447182rahul@gmail.com" style="color:inherit;text-decoration:underline;">7024447182rahul@gmail.com</a>';
+      errorMsg.classList.add('show');
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.querySelector('span').textContent = 'Send Message';
+    }
+  }, true);
+ 
+})();
+</script>
+  </body>
+</html>
